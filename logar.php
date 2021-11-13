@@ -7,6 +7,8 @@ function tratarCamposFormulario($campo)
     return htmlspecialchars(stripslashes(trim($campo)));
 }
 
+//VE
+
 //verificar se veio pelo metodo POST e tratar os campos recebidos
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     try {
